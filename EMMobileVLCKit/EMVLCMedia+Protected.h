@@ -21,7 +21,7 @@
 
 #import "EMVLCMedia.h"
 
-#import <MobileVLCKit/VLCMedia.h>
+#import "VLCMedia.h"
 
 @interface EMVLCMedia ()
 

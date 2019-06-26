@@ -22,7 +22,7 @@
 #import "EMVLCMediaPlayer.h"
 #import "EMVLCMedia+Protected.h"
 
-#import <MobileVLCKit/VLCMediaPlayer.h>
+#import "VLCMediaPlayer.h"
 
 NSString * EMVLCMediaPlayerStateToString(EMVLCMediaPlayerState state)
 {
@@ -35,6 +35,7 @@ NSString * EMVLCMediaPlayerStateToString(EMVLCMediaPlayerState state)
 @implementation EMVLCMediaPlayer
 {
   VLCMediaPlayer *_player;
+  EMVLCMedia *_media;
 }
 
 @synthesize delegate;
@@ -69,25 +70,26 @@ NSString * EMVLCMediaPlayerStateToString(EMVLCMediaPlayerState state)
 
 - (void)mediaPlayerTimeChanged:(NSNotification *)aNotification
 {
-  [self.delegate mediaPlayerStateChanged:aNotification];
+  [self.delegate mediaPlayerTimeChanged:aNotification];
 }
 
 #pragma mark - Properties
 
 - (void)setDrawable:(id)drawable {
-  _player.drawable = drawable;;
+  _player.drawable = drawable;
 }
 
 - (id)drawable {
   return _player.drawable;
 }
 
-- (EMVLCMedia *)media {
-  return _player.drawable;
+- (void)setMedia:(EMVLCMedia *)media {
+  _media = media;
+  _player.media = media.media;
 }
 
-- (void)setMedia:(EMVLCMedia *)media {
-  _player.media = media.media;
+- (EMVLCMedia *)media {
+  return _media;
 }
 
 - (EMVLCMediaPlayerState)state {

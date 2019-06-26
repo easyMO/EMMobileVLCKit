@@ -21,14 +21,12 @@
 
 #import "EMVLCMedia+Protected.h"
 
-#import <MobileVLCKit/VLCMedia.h>
+#import "VLCMedia.h"
 
 @implementation EMVLCMedia
 {
   VLCMedia *_media;
 }
-
-@synthesize media;
 
 + (instancetype)mediaWithURL:(NSURL *)anURL
 {

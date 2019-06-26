@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		17ECEBB622C29B580044987B /* EMMobileVLCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ECEBB422C29B580044987B /* EMMobileVLCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17ECEBBE22C29EFE0044987B /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBBD22C29EFE0044987B /* MobileVLCKit.framework */; };
 		17ECEBCF22C29FE00044987B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC022C29FDE0044987B /* AVFoundation.framework */; };
 		17ECEBD022C29FE00044987B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC122C29FDE0044987B /* AudioToolbox.framework */; };
 		17ECEBD122C29FE00044987B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC222C29FDE0044987B /* Security.framework */; };
@@ -31,13 +30,13 @@
 		17ECEBE722C2A75E0044987B /* EMVLCMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 17ECEBE522C2A75E0044987B /* EMVLCMedia.m */; };
 		17ECEBE922C2BC440044987B /* EMVLCMedia+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ECEBE822C2B90B0044987B /* EMVLCMedia+Protected.h */; };
 		17ECEBEB22C2BFCB0044987B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBEA22C2BFCB0044987B /* libc++.tbd */; };
+		17ECEC3422C2EC240044987B /* MobileVLCKit in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEC3322C2EC240044987B /* MobileVLCKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17ECEBB122C29B580044987B /* EMMobileVLCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMMobileVLCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17ECEBB422C29B580044987B /* EMMobileVLCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMMobileVLCKit.h; sourceTree = "<group>"; };
 		17ECEBB522C29B580044987B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17ECEBBD22C29EFE0044987B /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = Carthage/Build/iOS/MobileVLCKit.framework; sourceTree = "<group>"; };
 		17ECEBC022C29FDE0044987B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		17ECEBC122C29FDE0044987B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		17ECEBC222C29FDE0044987B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -60,6 +59,7 @@
 		17ECEBE522C2A75E0044987B /* EMVLCMedia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMVLCMedia.m; sourceTree = "<group>"; };
 		17ECEBE822C2B90B0044987B /* EMVLCMedia+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMVLCMedia+Protected.h"; sourceTree = "<group>"; };
 		17ECEBEA22C2BFCB0044987B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		17ECEC3322C2EC240044987B /* MobileVLCKit */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = MobileVLCKit; path = Carthage/Build/iOS/MobileVLCKit.framework/MobileVLCKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,7 @@
 				17ECEBD422C29FE00044987B /* CoreText.framework in Frameworks */,
 				17ECEBD522C29FE00044987B /* CoreMedia.framework in Frameworks */,
 				17ECEBD622C29FE00044987B /* CoreFoundation.framework in Frameworks */,
+				17ECEC3422C2EC240044987B /* MobileVLCKit in Frameworks */,
 				17ECEBD722C29FE00044987B /* OpenGLES.framework in Frameworks */,
 				17ECEBD822C29FE00044987B /* libiconv.tbd in Frameworks */,
 				17ECEBD922C29FE00044987B /* CFNetwork.framework in Frameworks */,
@@ -84,7 +85,6 @@
 				17ECEBDB22C29FE00044987B /* CoreGraphics.framework in Frameworks */,
 				17ECEBDC22C29FE00044987B /* QuartzCore.framework in Frameworks */,
 				17ECEBDD22C29FE00044987B /* Foundation.framework in Frameworks */,
-				17ECEBBE22C29EFE0044987B /* MobileVLCKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +125,7 @@
 		17ECEBBC22C29EFE0044987B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				17ECEC3322C2EC240044987B /* MobileVLCKit */,
 				17ECEBEA22C2BFCB0044987B /* libc++.tbd */,
 				17ECEBDE22C29FF00044987B /* UIKit.framework */,
 				17ECEBC122C29FDE0044987B /* AudioToolbox.framework */,
@@ -142,7 +143,6 @@
 				17ECEBCD22C29FDF0044987B /* QuartzCore.framework */,
 				17ECEBC222C29FDE0044987B /* Security.framework */,
 				17ECEBC422C29FDF0044987B /* VideoToolbox.framework */,
-				17ECEBBD22C29EFE0044987B /* MobileVLCKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,8 +171,6 @@
 				17ECEBAC22C29B580044987B /* Headers */,
 				17ECEBAD22C29B580044987B /* Sources */,
 				17ECEBAE22C29B580044987B /* Frameworks */,
-				17ECEBAF22C29B580044987B /* Resources */,
-				17ECEBBF22C29F1A0044987B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -213,37 +211,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		17ECEBAF22C29B580044987B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		17ECEBBF22C29F1A0044987B /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/MobileVLCKit.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17ECEBAD22C29B580044987B /* Sources */ = {
@@ -388,16 +355,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS/MobileVLCKit.framework/Headers";
 				INFOPLIST_FILE = EMMobileVLCKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/MobileVLCKit.framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.easyMOBIZ.EMMobileVLCKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -416,16 +384,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS/MobileVLCKit.framework/Headers";
 				INFOPLIST_FILE = EMMobileVLCKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/MobileVLCKit.framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.easyMOBIZ.EMMobileVLCKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
