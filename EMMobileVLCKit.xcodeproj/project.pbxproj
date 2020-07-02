@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		176C3F2124AD5B260078DAE4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 176C3F2024AD5B140078DAE4 /* libxml2.tbd */; };
 		17ECEBB622C29B580044987B /* EMMobileVLCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ECEBB422C29B580044987B /* EMMobileVLCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17ECEBCF22C29FE00044987B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC022C29FDE0044987B /* AVFoundation.framework */; };
 		17ECEBD022C29FE00044987B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC122C29FDE0044987B /* AudioToolbox.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		176C3F2024AD5B140078DAE4 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
 		17ECEBB122C29B580044987B /* EMMobileVLCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMMobileVLCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17ECEBB422C29B580044987B /* EMMobileVLCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMMobileVLCKit.h; sourceTree = "<group>"; };
 		17ECEBB522C29B580044987B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				17ECEBD322C29FE00044987B /* VideoToolbox.framework in Frameworks */,
 				17ECEBD422C29FE00044987B /* CoreText.framework in Frameworks */,
 				17ECEBD522C29FE00044987B /* CoreMedia.framework in Frameworks */,
+				176C3F2124AD5B260078DAE4 /* libxml2.tbd in Frameworks */,
 				17ECEBD622C29FE00044987B /* CoreFoundation.framework in Frameworks */,
 				17ECEC3422C2EC240044987B /* MobileVLCKit in Frameworks */,
 				17ECEBD722C29FE00044987B /* OpenGLES.framework in Frameworks */,
@@ -125,6 +128,7 @@
 		17ECEBBC22C29EFE0044987B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				176C3F2024AD5B140078DAE4 /* libxml2.tbd */,
 				17ECEC3322C2EC240044987B /* MobileVLCKit */,
 				17ECEBEA22C2BFCB0044987B /* libc++.tbd */,
 				17ECEBDE22C29FF00044987B /* UIKit.framework */,
