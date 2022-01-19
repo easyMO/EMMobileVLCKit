@@ -22,7 +22,7 @@
 #import "EMVLCMediaPlayer.h"
 #import "EMVLCMedia+Protected.h"
 
-#import "VLCMediaPlayer.h"
+#import <MobileVLCKit/VLCMediaPlayer.h>
 
 NSString * EMVLCMediaPlayerStateToString(EMVLCMediaPlayerState state)
 {

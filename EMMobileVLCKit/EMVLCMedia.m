@@ -21,7 +21,7 @@
 
 #import "EMVLCMedia+Protected.h"
 
-#import "VLCMedia.h"
+#import <MobileVLCKit/VLCMedia.h>
 
 @implementation EMVLCMedia
 {
