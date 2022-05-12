@@ -3,74 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17B2327D279860B800284DDC /* MobileVLCKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B2327C279860B700284DDC /* MobileVLCKit.xcframework */; };
-		17B2327E279860B800284DDC /* MobileVLCKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 17B2327C279860B700284DDC /* MobileVLCKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		17D43BE0282CFDAF00F75D34 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D43BDF282CFDA200F75D34 /* libxml2.tbd */; };
-		17D43BE2282CFE2700F75D34 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D43BE1282CFE1F00F75D34 /* libz.tbd */; };
 		17ECEBB622C29B580044987B /* EMMobileVLCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ECEBB422C29B580044987B /* EMMobileVLCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17ECEBCF22C29FE00044987B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC022C29FDE0044987B /* AVFoundation.framework */; };
-		17ECEBD022C29FE00044987B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC122C29FDE0044987B /* AudioToolbox.framework */; };
-		17ECEBD122C29FE00044987B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC222C29FDE0044987B /* Security.framework */; };
-		17ECEBD322C29FE00044987B /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC422C29FDF0044987B /* VideoToolbox.framework */; };
-		17ECEBD422C29FE00044987B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC522C29FDF0044987B /* CoreText.framework */; };
-		17ECEBD522C29FE00044987B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC622C29FDF0044987B /* CoreMedia.framework */; };
-		17ECEBD722C29FE00044987B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC822C29FDF0044987B /* OpenGLES.framework */; };
-		17ECEBD822C29FE00044987B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBC922C29FDF0044987B /* libiconv.tbd */; };
-		17ECEBD922C29FE00044987B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBCA22C29FDF0044987B /* CFNetwork.framework */; };
-		17ECEBDA22C29FE00044987B /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBCB22C29FDF0044987B /* libbz2.tbd */; };
-		17ECEBDB22C29FE00044987B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBCC22C29FDF0044987B /* CoreGraphics.framework */; };
-		17ECEBDC22C29FE00044987B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBCD22C29FDF0044987B /* QuartzCore.framework */; };
 		17ECEBE222C2A0800044987B /* EMVLCMediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ECEBE022C2A0800044987B /* EMVLCMediaPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17ECEBE322C2A0800044987B /* EMVLCMediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17ECEBE122C2A0800044987B /* EMVLCMediaPlayer.m */; };
 		17ECEBE622C2A75E0044987B /* EMVLCMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ECEBE422C2A75E0044987B /* EMVLCMedia.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17ECEBE722C2A75E0044987B /* EMVLCMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 17ECEBE522C2A75E0044987B /* EMVLCMedia.m */; };
 		17ECEBE922C2BC440044987B /* EMVLCMedia+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ECEBE822C2B90B0044987B /* EMVLCMedia+Protected.h */; };
-		17ECEBEB22C2BFCB0044987B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ECEBEA22C2BFCB0044987B /* libc++.tbd */; };
+		40DEE4E594770A32BC0F27CF /* libPods-EMMobileVLCKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F1B30689116E85146E0EF0 /* libPods-EMMobileVLCKit.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		17B2327F279860B800284DDC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				17B2327E279860B800284DDC /* MobileVLCKit.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		17B2327C279860B700284DDC /* MobileVLCKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MobileVLCKit.xcframework; path = Carthage/Build/MobileVLCKit.xcframework; sourceTree = "<group>"; };
-		17D43BDF282CFDA200F75D34 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
-		17D43BE1282CFE1F00F75D34 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		02F896D9BA93135512FB7A73 /* Pods-EMMobileVLCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMMobileVLCKit.debug.xcconfig"; path = "Target Support Files/Pods-EMMobileVLCKit/Pods-EMMobileVLCKit.debug.xcconfig"; sourceTree = "<group>"; };
 		17ECEBB122C29B580044987B /* EMMobileVLCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMMobileVLCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17ECEBB422C29B580044987B /* EMMobileVLCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMMobileVLCKit.h; sourceTree = "<group>"; };
 		17ECEBB522C29B580044987B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17ECEBC022C29FDE0044987B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		17ECEBC122C29FDE0044987B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		17ECEBC222C29FDE0044987B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		17ECEBC422C29FDF0044987B /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
-		17ECEBC522C29FDF0044987B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		17ECEBC622C29FDF0044987B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		17ECEBC822C29FDF0044987B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		17ECEBC922C29FDF0044987B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
-		17ECEBCA22C29FDF0044987B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		17ECEBCB22C29FDF0044987B /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		17ECEBCC22C29FDF0044987B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		17ECEBCD22C29FDF0044987B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		17ECEBE022C2A0800044987B /* EMVLCMediaPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMVLCMediaPlayer.h; sourceTree = "<group>"; };
 		17ECEBE122C2A0800044987B /* EMVLCMediaPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMVLCMediaPlayer.m; sourceTree = "<group>"; };
 		17ECEBE422C2A75E0044987B /* EMVLCMedia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMVLCMedia.h; sourceTree = "<group>"; };
 		17ECEBE522C2A75E0044987B /* EMVLCMedia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMVLCMedia.m; sourceTree = "<group>"; };
 		17ECEBE822C2B90B0044987B /* EMVLCMedia+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMVLCMedia+Protected.h"; sourceTree = "<group>"; };
-		17ECEBEA22C2BFCB0044987B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		204045FCE5C49C256E7CC1D8 /* Pods-EMMobileVLCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMMobileVLCKit.release.xcconfig"; path = "Target Support Files/Pods-EMMobileVLCKit/Pods-EMMobileVLCKit.release.xcconfig"; sourceTree = "<group>"; };
+		95F1B30689116E85146E0EF0 /* libPods-EMMobileVLCKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EMMobileVLCKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,22 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17ECEBEB22C2BFCB0044987B /* libc++.tbd in Frameworks */,
-				17ECEBCF22C29FE00044987B /* AVFoundation.framework in Frameworks */,
-				17ECEBD022C29FE00044987B /* AudioToolbox.framework in Frameworks */,
-				17ECEBD122C29FE00044987B /* Security.framework in Frameworks */,
-				17ECEBD322C29FE00044987B /* VideoToolbox.framework in Frameworks */,
-				17ECEBD422C29FE00044987B /* CoreText.framework in Frameworks */,
-				17ECEBD522C29FE00044987B /* CoreMedia.framework in Frameworks */,
-				17D43BE2282CFE2700F75D34 /* libz.tbd in Frameworks */,
-				17D43BE0282CFDAF00F75D34 /* libxml2.tbd in Frameworks */,
-				17ECEBD722C29FE00044987B /* OpenGLES.framework in Frameworks */,
-				17ECEBD822C29FE00044987B /* libiconv.tbd in Frameworks */,
-				17B2327D279860B800284DDC /* MobileVLCKit.xcframework in Frameworks */,
-				17ECEBD922C29FE00044987B /* CFNetwork.framework in Frameworks */,
-				17ECEBDA22C29FE00044987B /* libbz2.tbd in Frameworks */,
-				17ECEBDB22C29FE00044987B /* CoreGraphics.framework in Frameworks */,
-				17ECEBDC22C29FE00044987B /* QuartzCore.framework in Frameworks */,
+				40DEE4E594770A32BC0F27CF /* libPods-EMMobileVLCKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +48,7 @@
 				17ECEBB322C29B580044987B /* EMMobileVLCKit */,
 				17ECEBB222C29B580044987B /* Products */,
 				17ECEBBC22C29EFE0044987B /* Frameworks */,
+				1B4A8FB05072889387656A11 /* Pods */,
 			);
 			sourceTree = "<group>";
 			wrapsLines = 0;
@@ -135,24 +78,18 @@
 		17ECEBBC22C29EFE0044987B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				17D43BE1282CFE1F00F75D34 /* libz.tbd */,
-				17D43BDF282CFDA200F75D34 /* libxml2.tbd */,
-				17B2327C279860B700284DDC /* MobileVLCKit.xcframework */,
-				17ECEBEA22C2BFCB0044987B /* libc++.tbd */,
-				17ECEBC122C29FDE0044987B /* AudioToolbox.framework */,
-				17ECEBC022C29FDE0044987B /* AVFoundation.framework */,
-				17ECEBCA22C29FDF0044987B /* CFNetwork.framework */,
-				17ECEBCC22C29FDF0044987B /* CoreGraphics.framework */,
-				17ECEBC622C29FDF0044987B /* CoreMedia.framework */,
-				17ECEBC522C29FDF0044987B /* CoreText.framework */,
-				17ECEBCB22C29FDF0044987B /* libbz2.tbd */,
-				17ECEBC922C29FDF0044987B /* libiconv.tbd */,
-				17ECEBC822C29FDF0044987B /* OpenGLES.framework */,
-				17ECEBCD22C29FDF0044987B /* QuartzCore.framework */,
-				17ECEBC222C29FDE0044987B /* Security.framework */,
-				17ECEBC422C29FDF0044987B /* VideoToolbox.framework */,
+				95F1B30689116E85146E0EF0 /* libPods-EMMobileVLCKit.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B4A8FB05072889387656A11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02F896D9BA93135512FB7A73 /* Pods-EMMobileVLCKit.debug.xcconfig */,
+				204045FCE5C49C256E7CC1D8 /* Pods-EMMobileVLCKit.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,10 +113,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17ECEBB922C29B580044987B /* Build configuration list for PBXNativeTarget "EMMobileVLCKit" */;
 			buildPhases = (
+				77B0990034C493B77163E2A0 /* [CP] Check Pods Manifest.lock */,
 				17ECEBAC22C29B580044987B /* Headers */,
 				17ECEBAD22C29B580044987B /* Sources */,
 				17ECEBAE22C29B580044987B /* Frameworks */,
-				17B2327F279860B800284DDC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +133,7 @@
 		17ECEBA822C29B580044987B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = "easyMOBIZ mobile IT solutions GmbH";
 				TargetAttributes = {
 					17ECEBB022C29B580044987B = {
@@ -220,6 +157,31 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77B0990034C493B77163E2A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EMMobileVLCKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17ECEBAD22C29B580044987B /* Sources */ = {
@@ -259,6 +221,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -319,6 +282,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -350,6 +314,7 @@
 		};
 		17ECEBBA22C29B580044987B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F896D9BA93135512FB7A73 /* Pods-EMMobileVLCKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +339,7 @@
 		};
 		17ECEBBB22C29B580044987B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204045FCE5C49C256E7CC1D8 /* Pods-EMMobileVLCKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
